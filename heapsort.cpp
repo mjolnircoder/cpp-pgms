@@ -9,6 +9,7 @@ void heapify(int arr[], int N, int i)
  
     // Initialize largest as root
     int largest = i;
+int smallest=1;
  
     // left = 2*i + 1
     int l = 2 * i + 1;
